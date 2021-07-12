@@ -2,7 +2,9 @@ package com.classes.DAO;
 
 import com.classes.DTO.produto;
 
-public class produtoDAO {
+import junit.framework.TestCase;
+
+public class produtoDAO extends TestCase{
 	
 	 public String adicionarColuna( produto p) {
 	    	
